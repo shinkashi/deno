@@ -6,16 +6,16 @@ Test `deno`:
 
 ```shell
 # Run the whole suite:
-cargo test
+deno test
 
 # Only test cli/tests/unit/:
-cargo test js_unit_tests
+deno test js_unit_tests
 ```
 
 Test `std/`:
 
 ```shell
-cargo test std_tests
+deno test std_tests
 ```
 
 ### Lint and format
